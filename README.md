@@ -11,7 +11,7 @@ Infotainment systems have come a long way since the first set of dashboards inst
 Our product primarily comprises of 5 modules:
 
 1)  Attention and drowsiness detection:
-- A camera shall be present on the dashboard, in front of the driver, behind the steering wheel. Through digital image processing techniques , using hough circle algorithm and haarcascade of an eye, we shall keep track of the driver’s sight. If he or she is looking away from the road while driving for more than a specified amount of time, we shall alert the driver to focus. We shall map the head orientation and iris position to accurately identify the driver’s attention. 
+ A camera shall be present on the dashboard, in front of the driver, behind the steering wheel. Through digital image processing techniques , using hough circle algorithm and haarcascade of an eye, we shall keep track of the driver’s sight. If he or she is looking away from the road while driving for more than a specified amount of time, we shall alert the driver to focus. We shall map the head orientation and iris position to accurately identify the driver’s attention. 
 
 2) Infotainment control features using blink combination:
 Through a combination of blinks, the driver can turn on or of the headlights, tail lights as well as indicators. Blinking of the eyes shall be detected using ‘dlib’ features in python. This shall give extremely accurate results.
